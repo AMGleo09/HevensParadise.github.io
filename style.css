@@ -109,7 +109,7 @@ body{
 }
 .steps-container{
     width: 100%;
-    height: 1000px;
+    height: 800px;
     background-color: pink;
     display: grid;
     /* grid-template-areas: 'steps1 steps2 steps3 steps4'; */
@@ -119,7 +119,7 @@ body{
 
 }
 .steps1{
-    height: 1000px;
+    height: 800px;
     width:100%;
     /* max-width: 480px; */
     background: cyan;  
@@ -129,7 +129,7 @@ body{
    
 }
 .steps2{
-    height: 1000px;
+    height: 800px;
     width:100%;
     /* max-width: 480px; */
     background: greenyellow;
@@ -139,7 +139,7 @@ body{
 }
 
 .steps3{
-    height: 1000px;
+    height: 800px;
     width:100%;
     /* max-width: 480px; */
     background: orange;
@@ -149,7 +149,7 @@ body{
 }
 
 .steps4{
-    height: 1000px;
+    height: 800px;
     width:100%;
     /* max-width: 480px; */
     background: magenta;
@@ -320,6 +320,7 @@ color: white;
     font-size: 15px;
     margin-top: 30px;
     padding: 5px;
+    
 }
 .blog:hover{
     box-shadow: 10px 15px 15px  gray ;
@@ -347,14 +348,16 @@ color: white;
 
 }
 .right-follow{
-/* width: 30%;
-max-width:100%; */
+ /* width: 100%; */
+/* max-width:100%;  */
 height: 700px;
 grid-area: ri;
 /* background: yellow; */
 display: flex;
 justify-content: center;
 align-items: center;
+position: relative;
+overflow: hidden;
 
 
 }
@@ -372,9 +375,9 @@ align-items: center;
     position: absolute;
     background: url(frrrrrr.jpg) no-repeat center center/cover;
     height: 700px;
-    width:25%;
-    max-width:auto;
-    opacity: 0.3;
+    width:100%;
+    /* max-width:auto; */
+    opacity: 0.6;
     z-index: -1;
 }
 .fru h1{
@@ -416,7 +419,7 @@ align-items: center;
     content: '';
     position: absolute;
     z-index: -1;
-    width: 70px;
+    width: 75px;
     height: 752px;
     background: linear-gradient(to bottom, red, blue);
     animation: fuga 6s linear infinite;
@@ -553,7 +556,7 @@ align-items: center;
     
     }
     .steps1{
-        height: 1000px;
+        height: 800px;
         width:100%;
         max-width: 100%;
         background: cyan;  
@@ -564,7 +567,7 @@ align-items: center;
        
     }
     .steps2{
-        height: 1000px;
+        height: 800px;
         width:100%;
         max-width: 100%;
         background: greenyellow;
@@ -572,7 +575,7 @@ align-items: center;
     }
     
     .steps3{
-        height: 1000px;
+        height: 800px;
         width:100%;
         max-width: 100%;
         background: orange;
@@ -580,7 +583,7 @@ align-items: center;
     }
     
     .steps4{
-        height: 1000px;
+        height: 800px;
         width:100%;
         max-width: 100%;
         background: magenta;
@@ -595,6 +598,12 @@ align-items: center;
         display: grid;
         grid-template-columns: auto ;
         justify-content: center;
+    }
+    .items p{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 25px;
+        
     }
     .blog-container{
         width: 100%;
