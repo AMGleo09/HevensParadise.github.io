@@ -362,7 +362,7 @@ overflow: hidden;
 
 }
 .fru{
-    height: 500px;
+    height: 400px;
     width: 200px;
     display: flex;
     flex-direction: column;
