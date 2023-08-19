@@ -184,7 +184,7 @@ color: white;
 
 }
 .step-content:hover span{
-    transform: scale(13);
+    transform: scale(10);
 }
 
 .store{
